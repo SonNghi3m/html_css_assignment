@@ -1,0 +1,203 @@
+/*****************************  TAG  **********************************/
+html {
+    background-color: #181D31;
+}
+
+body {
+    width: 1024px;
+    font-family: Ubuntu, sans-serif;
+    margin: auto;
+}
+
+nav {
+    display: grid;
+    grid-template-columns: repeat(14, 1fr);
+    background-color: #C7F2A4;
+    text-align: center;
+}
+
+/* grid-area: row-start/ column-start/ row-end/ column-end*/
+section {
+    display: inline-block;
+    background-color: #E5D9B6;
+    grid-area: 1 / 1 / 1 / 3;
+    margin-top: 2px;
+    margin-right: 2px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(10, 0.7fr);
+    gap: 10px;
+}
+
+aside {
+    display: inline-block;
+    background-color: #A4BE7B;
+    grid-area: 1 / 3 / 2 / 4;
+    margin-top: 2px;
+}
+
+h1 {
+    background-color: #FFFFE8;
+    grid-area: 1 / 1 / 3 / 2;
+    margin: auto 0px auto 30px;
+    text-align: center;
+    font-size: 36pt;
+    border: 2px solid #224B0C;
+    border-radius: 10px;
+}
+
+h2 {
+    background-color: #FFFFE8;
+    grid-area: 2 / 1 / 5 / 3;
+    text-align: center;
+    margin: auto 30px;
+    padding: 20px 0px;
+    font-size: 30pt;
+    border: 2px solid #224B0C;
+    border-radius: 10px;
+}
+
+h3 {
+    font-size: 20pt;
+    text-align: center;
+}
+
+h5 {
+    position: absolute;
+    font-size: 28pt;
+    background-color: #A4BE7B;
+    margin: 200px 500px auto 250px;
+    padding: 10px 100px;
+    text-align: center;
+    border: 2px solid #224B0C;
+    border-radius: 10px;
+}
+
+table {
+    position: absolute;
+    background-color: #A4BE7B;
+    margin: 300px 250px 500px 250px;
+    padding: 50px 100px 50px 95px;
+    text-align: center;
+    border: 2px solid #224B0C;
+    border-radius: 10px;
+}
+
+input {
+    margin: 5px;
+    border-width: 2px;
+    border-color: #224B0C;
+}
+
+article {
+    background-color: #FFFFE8;
+    margin: 20px 30px;
+    text-align: center;
+    padding-bottom: 10px;
+    border: 2px solid #224B0C;
+    border-radius: 10px;
+}
+
+img {
+    margin: auto 10px;
+}
+
+footer {
+    background-color: #224B0C;
+    color: white;
+    padding: 10px;
+    margin-top: 2px;
+    text-align: center;
+}
+
+p {
+    margin: 10px 20px;
+}
+
+ul {
+    list-style: none;
+}
+
+
+
+/*****************************  CLASS  **********************************/
+
+.statics {
+    background-color: #FFFFE8;
+    margin: 100px 30px;
+    padding: 10px;
+    border: 2px solid #224B0C;
+    border-radius: 10px;
+}
+
+.form {
+    background-color: #E5D9B6;
+    height: 760px;
+}
+
+/*****************************  ID  **********************************/
+#mainDiv {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+#home {
+    background: #5F8D4E;
+    grid-area: 1 / 1 / 2 / 4;
+    display: inline-block;
+    padding: 1em;
+    margin-right: 2px;
+    border-style: solid;
+    border-color: #224B0C;
+    border-width: 2px;
+}
+
+#article {
+    background: #A4BE7B;
+    grid-area: 1 / 4 / 2 / 6;
+    display: inline-block;
+    padding: 1em;
+    margin-right: 2px;
+    border-style: solid;
+    border-color: #224B0C;
+    border-width: 2px;
+}
+
+#about {
+    background: #A4BE7B;
+    grid-area: 1 / 6 / 2 / 8;
+    display: inline-block;
+    padding: 1em;
+    margin-right: 2px;
+    border-style: solid;
+    border-color: #224B0C;
+    border-width: 2px;
+}
+
+#contact {
+    background: #A4BE7B;
+    grid-area: 1 / 8 / 2 / 10;
+    display: inline-block;
+    padding: 1em;
+    margin-right: 2px;
+    border-style: solid;
+    border-color: #224B0C;
+    border-width: 2px;
+}
+
+#login {
+    background: #5F8D4E;
+    grid-area: 1 / 13 / 2 / 15;
+    display: inline-block;
+    padding: 1em;
+    border-style: solid;
+    border-color: #224B0C;
+    border-width: 2px;
+}
+
+#articlesDiv {
+    background-color: #E5D9B6;
+    grid-area: 5 / 1 / 11 / 3;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
